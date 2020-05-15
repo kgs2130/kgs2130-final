@@ -1,0 +1,72 @@
+
+
+p.center {
+    
+    text-align: center;
+    color: black;
+    
+}
+
+
+div {
+    width: 300px;
+    border: 15px blue;
+    padding: 50px;
+    margin: 20px;
+
+}
+
+
+
+.nav {
+    overflow: hidden;
+    background-color: white;
+    
+}
+
+.nav links {
+
+    float: left;
+    display: block;
+    color: white;
+    text-align: center
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+.nav links:hover {
+    background color: #ddd;
+    color: black;
+
+}
+
+
+.column {
+    float: left;
+    width: 33.33%;
+
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+
+}
+
+<img src="https://i.insider.com/5df126b679d7570ad2044f3e?width=1100&format=jpeg&auto=webp" alt="Dog in meadow">
+
+
+
+
+
+
+
+
+
+
+
+
+

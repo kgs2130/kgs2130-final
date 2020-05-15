@@ -3,9 +3,130 @@
     <head>
         <!--specifies title of the page !-->
         <title>Home</title>
-    <head>
+    <style>
+    body {
+        background-image: url('https://www.technocrazed.com/wp-content/uploads/2015/12/New-York-Wallpaper-Background-20.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .box {
+    
+        background-color: #ddd;
+        opacity: 80%;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 10px;
+        border: 1px solid #ddd;
+    
+    }
+    
+    .box h3,p {
+        margin: 5%;
+        color: black;
+        opacity: 100%;
+    
+    }
+    
+    .header {
+    
+        text-align: center;
+
+    }
+    
+    
+    .column {
+        float: left;
+
+    }
+    
+    .column.side {
+    
+        width: 30%;
+        
+        
+    
+    }
+    
+    .column.middle {
+    
+        width: 70%;
+    
+    }
+    
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+
+
+    }
+    
+    .nav {
+        overflow: hidden;
+        background-color: #ddd;
+        opacity: 80%;
+    
+    }
+
+    .nav a {
+
+        float: left;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 20px 28px;
+        text-decoration: none;
+
+    }
+
+    .nav a:hover {
+        background color: white;
+        color: black;
+
+    }
+
+    </style>
+    </head>
     <body>
-    <p>Hello World!</p>
+    <div class="header">
+        <h1>Katherine Samuel</h1>
+    </div>
+    <div class="nav">
+        <a href="/">Home</a>
+        <a href="/assignments">ENGI1006 Assignments</a>
+        <a href="/courses">Classes</a>
+    </div>
+    <div class="row">
+        <div class="column middle">
+            <div>
+                <img src="IMG_3706.JPG" width="200" height="200"/>
+            </div> 
+            <div class="box">
+                <h3 class="header">About</h3>
+                <p> Katherine is a first year student and intended Mechanical
+                Engineering major at Columbia University.</p>
+                <p> She was born in New York City and moved to Los Angeles
+                at the age of 13, where she continues to live with her
+                parents, dog, and grandmother.</p>
+            </div>
+        </div>
+        <div class="column side">
+            <div class="box">
+                <h3 class="header">Visit Katherine's Favorite Websites</h3>
+                <ul>
+                    <li><a href="https://cooking.nytimes.com/"> <i> NYT Cooking</i></a></li><br>
+                    <li><a href="https://cutkd.club/"><i>Join Columbia Taekwondo!</i></a></li><br>
+                    <li><a href="https://www.youtube.com/watch?v=JMG1Nl7uWko"><i>Piazza</i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
     </body>
 </html>
+
+
 
